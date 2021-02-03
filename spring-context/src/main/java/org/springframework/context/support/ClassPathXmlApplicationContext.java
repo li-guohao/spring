@@ -144,7 +144,7 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
 		super(parent);
 		// 设置配置路径 如果未设置会使用默认的配置
 		setConfigLocations(configLocations);
-		// 刷新配置
+		// 是否刷新配置
 		if (refresh) {
 			refresh();
 		}
